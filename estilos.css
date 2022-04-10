@@ -649,7 +649,190 @@ footer{
     margin: 30px ;
 }
 /* FIN DE BLOG.HTML */
+/* INICIO DE BLOG.HTML */
+#encabezado {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secundario);
+}
+#encabezado h1{
+    color: var(--color-principal);
+    font-size: 2em;
+    margin: 20px 0 40px 150px ;
+}
+/* Aplicare grid y flexbox */
+#blog{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "section-img text1 text2"
+    "section-img text1 text2"
+    "section-img text3 text4"
+    "section-img text3 text4";
+    ;
+    margin: 0;
+    padding: 0;
+}
+.section-img{
+    grid-area: section-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blog h3{
+    font-size: 1.5em;
+    color: var(--color-secundario);
+}
+#blog p{
+    font-size: 1.1em;
+    margin: 10px 20px;
+    padding: 0 40px;
+    color: var(--color-secundario);
+}
+.text1{
+    grid-area: text1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px ;
+}
+.text2{
+    grid-area: text2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px ;
+}
+.text3{
+    grid-area: text3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px ;
+}
+.text4{
+    grid-area: text4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px ;
+}
+/* INICIO DE CONTACTO.HTML */
+.grid-contacto{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "form contacto"
+    "form contacto"
+    ;
+}
+#form{
+    grid-area: form;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+#contacto{
+    grid-area: contacto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+#encabezado-contacto{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+#encabezado-contacto h1{
+    font-size: 1.1em;
+    margin: 20px 0 40px 10px ;
+}
+#encabezado-contacto p{
+    font-size: 2.5em;
+    margin: 10px 20px 8px 550px;
+}
+#form .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.form-row{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
 
+}
+.form-row input [type="text"],
+.form-row input [type="email"] {
+    background-color: #fff;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 15px;
+}
+.form-row textarea {
+    font-size: 14px;
+    border: 1xp solid #d6d9dc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 7px;
+    min-height: 200px;
+    min-width: 100%;
+    resize: none;
+}
+.form-row .instructions {
+    color: var(--textos-secundarios);
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.form-row button {
+    font-family:'Josefin Sans', sans-serif ;
+    padding: 15px 10px;
+    color:var(--color-principal);
+    background-color: var(--color-secundario);
+    letter-spacing: 4px;
+    font-size: 1em;
+    border: 1px solid var(--color-principal);
+}
+.form-row button:hover {
+    color:var(--color-secundario);
+    background-color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+    transition-delay: 0.2s;
+    border: 1px solid var(--color-secundario);
+}
+.form-row button:active{
+    border: 1px solid var(--color-detalles);
+}
+#contacto .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contacto .contenedor p ,h2{
+    margin: 10px 0;
+}
 
 
 
