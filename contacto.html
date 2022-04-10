@@ -40,26 +40,34 @@
             <p>CONTACTANOS</p>
         </div>
     </section>
+
     <div class="grid-contacto">
         <section id="form">
             <div class="contenedor">
-                <form>
-                    <div class="form">
-                        <input type="text" placeholder="Nombre y Apellido">
+                <form action="form.php" method="POST" class="speaker-form">
+                    <div class="form-row">
+                        <label for="full-name">Nombre</label>
+                        <input type="text" id="full-name" placeholder="ej: Alexis" name="nombre" required>
                     </div>
-                    <div class="form"></div>
-                    <p>Email(requerido)</p>
-                    <input type="email">
-                    <div class="form">
-                        <input type="text" placeholder="Telefono">
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="ej: ejemplo@gmail.com" name="email" required>
                     </div>
-                    <div class="form">
-                        <input type="text" placeholder="Mensaje">
+            
+                    <div class="form-row">
+                        <label for="number">Numero de telefono</label>
+                        <input type="number" id="number" placeholder="Teléfono" name="number" required>
                     </div>
-                    <div class="form">
-                        <input type="button" value="ENVIAR">
+            
+                    <div class="form-row">
+                        <label for="abstract">Mensaje</label>
+                        <textarea name="textarea" id="abstract" ></textarea>
+                        <p class="instructions">describe tu mensaje en menos de 500 palabras</p>
                     </div>
-                </form>
+            
+                    <div class="form-row">
+                        <button type="submit">Enviar</button>
+                    </div>
             </div>
         </section>
 
@@ -73,6 +81,7 @@
             </div>
         </section>
     </div>
+
     <section id="ubicacion">
         <div class="contenedor">
             <div class="mapa">
