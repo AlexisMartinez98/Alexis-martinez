@@ -252,7 +252,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0 15px 0;
+    padding: 10px 0 ;
 }
 .contenedor-izq{
     font-size: 1.1em;
@@ -751,6 +751,7 @@ footer{
 }
 #encabezado-contacto{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--color-secundario);
     color: var(--color-principal);
@@ -760,8 +761,11 @@ footer{
     margin: 20px 0 40px 10px ;
 }
 #encabezado-contacto p{
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin: 10px 20px 8px 550px;
+}
+#form{
+    border-right: 1px solid var(--color-secundario);
 }
 #form .contenedor{
     display: flex;
@@ -777,7 +781,6 @@ footer{
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 .form-row input [type="text"],
 .form-row input [type="email"] {
@@ -831,13 +834,32 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
-#contacto .contenedor p ,h2{
-    margin: 10px 0;
+#contacto .contenedor h2{
+    font-size: 1.5em;
+    margin: 20px 0;
 }
-
-
-
-
+#contacto .contenedor p{
+    font-size: 1.2em;
+    margin: 12px 0;
+}
+#ubicacion .contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.mapa{
+    margin: 5px 0 10px 0;
+}
+.info h2{
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.info p{
+    font-size: 1em;
+}
 
 
 
