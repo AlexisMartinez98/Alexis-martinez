@@ -648,7 +648,29 @@ footer{
     flex-direction: column;
     margin: 30px ;
 }
-
+/* INICIO DE CONTACTO.HTML */
+#encabezado-contacto{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+#encabezado-contacto h1{
+    font-size: 1.1em;
+    margin: 20px 0 40px 10px ;
+}
+#encabezado-contacto p{
+    font-size: 2.5em;
+    margin: 10px 20px 0px 550px;
+}
+#form .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 
 
 
