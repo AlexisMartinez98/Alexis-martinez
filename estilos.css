@@ -20,138 +20,51 @@ body{
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
-/* COMIENZO HOME */
-
-/* Inicio de HEADER*/
-header{
-    background-color: var(--color-secundario);
-    display: flex;
-    justify-content: space-around;
+/* HEADER */
+img{
+    width: 8rem;
+    height: 4.5rem;
 }
-header .contenedor{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.container li{
+    margin: 0.4rem 1rem 0.4rem 0;
 }
-.logo{
-    margin-left: 20px;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 35px;
-    align-items: center;
-}
-nav li{
-    display: inline;
-    margin: 10px;
-}
-
-.logo img{
-    width: 10em;
-    height: 6em;
-}
-
 /* secciones comportamiento de boton */
 header a{
     text-decoration: none;
     color: var(--color-principal);
-    font-size: 1em;
-
+    font-size: 1.1rem;
 }
 nav a:hover{
     color: var(--color-terciario);
-    font-size: 1.03em;
     transition-delay: 0.05s;
 }
 /* FINDE HEADER */
-
-/* HOME */
-#home{
-    margin: 0;
-    height: 90vh;
-    background: url(imagenes/img1.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+/* RESUMEN */
+#resumen-quienes-somos .nombres{
+    margin: 2rem 0 2rem 1rem;
 }
-#home h1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--color-principal);
-    margin: 0%;
-    font-size: 3em;
-    top: 50%;
-    width: 100%;
-    height: 100%;
+#resumen-quienes-somos .data{
+    margin: 2rem 0 2rem 0;
 }
-/* FIN HOME */
-
-/* RESUMEN QUIENES SOMOS */
-
-#resumen-quienes-somos{
-    background-color: var(--color-principal);
+.data{
+    margin-top: 1rem;
 }
-#resumen-quienes-somos .contenedor{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.contenedor .nombres{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    margin: 6em 6em 6em 8em;  
-}
-.nombres h2{
-    display: flex;
-    margin: 0px 0 50px 90px;
-    font-size: 1.5em;
-}
-.nombres h3{
-    display: flex;
-    margin: 10px 0 10px 120px;
-    font-size: 1.2em;
-}
-
-.contenedor .resumen{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    margin: 6em;
-}
-.contenedor .resumen p{
-    line-height: 25px;
-    color: var(--textos-secundarios);
-    font-size: 1em;
-}
-.contenedor .resumen a{
-    margin:15px 0;
-}
-
-#guion{
-    letter-spacing: -2px;
-}
-
+/* FIN RESUMEN */
 /* secciones comportamiento de boton */
-.contenedor .resumen a{
+.data a{
     text-decoration: none;
     color: var(--color-secundario);
     font-size: 1em;
 }
 
-.contenedor .resumen a:hover{
+.data a:hover{
     color: var(--color-terciario);
-    font-size: 1.03em;
     transition-delay: 0.05s;
 }
 /* FIN RESUMEN QUIENES SOMOS */
 
 /* RESUMEN PROYECTOS */
+
 
 #resumen-proyectos{
     width: 100%;
