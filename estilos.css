@@ -1,6 +1,5 @@
 /* ESTILOS GENERALES PARA TODA LA PAGINA */
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -39,7 +38,7 @@ nav a:hover{
     transition-delay: 0.05s;
 }
 /* FINDE HEADER */
-/* RESUMEN */
+/* RESUMEN QUINES SOMOS*/
 #resumen-quienes-somos .nombres{
     margin: 2rem 0 2rem 1rem;
 }
@@ -61,7 +60,6 @@ nav a:hover{
     color: var(--color-terciario);
     transition-delay: 0.05s;
 }
-/* FIN RESUMEN QUIENES SOMOS */
 
 /* RESUMEN PROYECTOS */
 #resumen-proyectos{
@@ -138,8 +136,6 @@ footer  a img{
     width: 20px;
     height: 20px;
 }
-/* FIN FOOTER */
-
 /* FIN HOME */
 
 /* EMPIEZO DE QUIENES.SOMOS.HTML */
@@ -147,96 +143,29 @@ footer  a img{
 #titulo-quienes-somos{
     background-color: var(--color-secundario);
     color: var(--color-principal);
-    display: block;
 }
-#titulo-quienes-somos .contenedor{
-    height: 24vh;
-    display: flex;
-    align-items: center;
-    padding: 10px 200px 30px 200px;
-}
-#titulo-quienes-somos .contenedor h1{
-    font-size: 2.5em;
-}
-/* FIN TITULO */
 
 /* QUIENES SOMOS */
-#quines-somos{
-    display: flex;
+#quienes-somos .row{
+    margin: 0 3px;
 }
-.contenedor-a{
-    display: flex;
-    flex-direction: column;
-    padding: 30px 100px;
+@media screen and (min-width :1000px) {
+    .row1{
+        margin: 0 150px 0 150px;
+    }
 }
-.contenedor-a h2{
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-.contenedor-a p{
-    margin: 10px 0;
-    padding: 0 220px;
-}
-.contenedor-b{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 100px;
-}
-.contenedor1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.contenedor1 h3{
-    font-size: 1.3em;
-}
-.contenedor1 p{
-    margin: 10px 25px;
-    padding: 0 15px 0 0;
-    text-align: center;
-}
-/* FIN QUIENES SOMOS */
 
 /* EQUIPO */
-#equipo .contenedor{
-    display: flex;
-    align-items: center;
+#equipo .container img{
+    width: 226px;
+    height: 226px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
-#equipo .contenedor-img{
-    background-color: var(--color-fondo);
-    border: #000000 1px solid;
+#equipo .container img:hover{
+    transform: scale(1.15);
+    transition: all 0.4s;
 }
-#equipo .contenedor-img img{
-    width: 450px;
-    height: 550px;
-    background-position: center center;
-}
-#equipo .contenedor-text{
-    display: flex;
-    flex-direction: column;
-    margin: 0 200px;
-}
-#equipo .contenedor-text h2{
-    font-size: 1.5em;
-    margin: 20px 0 25px;
-}
-#equipo .contenedor-2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-#equipo .contenedor-2 h4{
-    font-size: 1.1em;
-    margin: 5px 0 5px;
-}
-
-#equipo .contenedor-2 p{
-    margin: 10px 45px;
-    padding: 0 60px 0 0;
-}
-/* FIN EQUIPO */
 
 /* FIN DE QUIENES.SOMOS.HTML */
 
