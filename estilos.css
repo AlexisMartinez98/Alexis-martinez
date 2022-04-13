@@ -64,8 +64,6 @@ nav a:hover{
 /* FIN RESUMEN QUIENES SOMOS */
 
 /* RESUMEN PROYECTOS */
-
-
 #resumen-proyectos{
     width: 100%;
     margin-bottom: 50px;
@@ -108,47 +106,16 @@ nav a:hover{
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-
-#resumen-contacto .contenedor{
-    display: flex;
-    justify-content: space-around;
-    height: 30vh;
-}
-.text-resumen-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.boton-resumen-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.text-resumen-contacto h3{
-    font-size: 1.1em;
-    margin: 8px 0;
-}
-.text-resumen-contacto h4{
-    font-size: 1.8em;
-    margin: 8px 0;
-}
-.text-resumen-contacto p{
-    font-size: 1em;
-    margin: 8px 0;
-    color: var(--textos-secundarios);
-}
-.boton-resumen-contacto button{
+#resumen-contacto button{
     font-family:'Josefin Sans', sans-serif ;
-    padding: 15px 10px;
+    padding: 1rem 0.6rem ;
     color:var(--color-principal);
     background-color: var(--color-secundario);
-    letter-spacing: 4px;
-    font-size: 1em;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
     border: 1px solid var(--color-principal);
 }
-.boton-resumen-contacto button:hover{
+#resumen-contacto button:hover{
     color:var(--color-secundario);
     background-color: var(--color-principal);
     border: 1px solid var(--color-principal);
@@ -161,24 +128,15 @@ footer{
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-.contenedor-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0 ;
+footer p{
+    margin: 4px 0 4px 0;
 }
-.contenedor-izq{
-    font-size: 1.1em;
+footer a{
+    margin: 4px 7px;
 }
-.contenedor-redes a{
-    margin: 0 7px;
-}
-.contenedor-redes a img{
+footer  a img{
     width: 20px;
     height: 20px;
-}
-.contenedor-der{
-    font-size: 1.1em;
 }
 /* FIN FOOTER */
 
