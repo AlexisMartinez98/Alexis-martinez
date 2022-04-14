@@ -91,11 +91,24 @@ header nav a:hover{
 }
 
 .img-resumen-proyectos img{
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     background-position: center center;
     padding: 10px;
     border-radius: 20px;
+}
+.img-resumen-proyectos .imagen1:hover, .imagen2:hover, .imagen3:hover{
+    transform: scale(1.08);
+    transition: all 0.4s;
+}
+@media screen and (max-width:810px) {
+    .img-resumen-proyectos img{
+        width: 20rem;
+        height: 20rem;
+        background-position: center center;
+        padding: 10px;
+        border-radius: 20px;
+    }
 }
 /* FIN RESUMEN PROYECTOS */
 
@@ -119,6 +132,23 @@ header nav a:hover{
     border: 1px solid var(--color-principal);
     transition-delay: 0.2s;
 }
+@media screen and (max-width:400px) {
+    #resumen-contacto button{
+        font-family:'Josefin Sans', sans-serif ;
+        padding: 0.8rem 0.5rem ;
+        color:var(--color-principal);
+        background-color: var(--color-secundario);
+        letter-spacing: 0.1rem;
+        font-size: 0.5rem;
+        border: 1px solid var(--color-principal);
+    }
+    #resumen-contacto button:hover{
+        color:var(--color-secundario);
+        background-color: var(--color-principal);
+        border: 1px solid var(--color-principal);
+        transition-delay: 0.2s;
+    }
+}
 /* FIN RESUMEN-CONTACTO */
 
 /* FOOTER */
@@ -136,8 +166,6 @@ footer  a img{
     width: 20px;
     height: 20px;
 }
-/* FIN HOME */
-
 /* EMPIEZO DE QUIENES.SOMOS.HTML */
 /* TITULO */
 #titulo-quienes-somos{
@@ -154,7 +182,6 @@ footer  a img{
         margin: 0 150px 0 150px;
     }
 }
-
 /* EQUIPO */
 #equipo .container img{
     width: 226px;
@@ -166,8 +193,6 @@ footer  a img{
     transform: scale(1.15);
     transition: all 0.4s;
 }
-
-/* FIN DE QUIENES.SOMOS.HTML */
 
 /* INICIO DE PORTAFOLIO.HTML */
 #menu {
@@ -183,7 +208,7 @@ footer  a img{
     text-decoration: underline;
 }
 /* PROYECTO */
-#proyecto1 {
+#proyecto1, #proyecto2{
     border-bottom: 2px solid var(--color-secundario);
     margin: 10px 0 10px 0;
 }
@@ -233,193 +258,40 @@ footer  a img{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FIN DE PORTAFOLIO.HTML */
-
-/* INICIO DE BLOG.HTML */
-#encabezado {
-    display: flex;
-    align-items: center;
+/* INICIO BLOG */
+.tituloBlog {
     background-color: var(--color-secundario);
-}
-#encabezado h1{
     color: var(--color-principal);
-    font-size: 2em;
-    margin: 20px 0 40px 150px ;
+    padding: 0 0 5px 0;
 }
-/* Aplicare grid y flexbox */
+#blog .row {
+    height: 78vh;
+}
+@media screen and (max-width:600px) {
+    #blog .row {
+        height: 73vh;
+    }
+}
 #blog{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 
-    "section-img text1 text2"
-    "section-img text1 text2"
-    "section-img text3 text4"
-    "section-img text3 text4";
-    ;
-    margin: 0;
-    padding: 0;
+    background: -webkit-linear-gradient(to left, hsla(210, 4%, 90%, 0.45), hsla(203, 100%, 21%, 0.45)), url(imagenes/152.JPG);
+    background: linear-gradient(to left, hsla(210, 4%, 90%, 0.45), hsla(203, 100%, 21%, 0.45)), url(imagenes/152.JPG);
+    animation: movimiento 20s infinite linear alternate;
+    margin: 10px;
 }
-.section-img{
-    grid-area: section-img;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#blog h3 , p{
+    color: var(--color-principal);
+    padding: 10px;
+}   
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
 }
-#blog h3{
-    font-size: 1.5em;
-    color: var(--color-secundario);
-}
-#blog p{
-    font-size: 1.1em;
-    margin: 10px 20px;
-    padding: 0 40px;
-    color: var(--color-secundario);
-}
-.text1{
-    grid-area: text1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text2{
-    grid-area: text2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text3{
-    grid-area: text3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text4{
-    grid-area: text4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-/* FIN DE BLOG.HTML */
 
-/* INICIO DE BLOG.HTML */
-#encabezado {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-secundario);
-}
-#encabezado h1{
-    color: var(--color-principal);
-    font-size: 2em;
-    margin: 20px 0 40px 150px ;
-}
-/* Aplicare grid y flexbox */
-#blog{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 
-    "section-img text1 text2"
-    "section-img text1 text2"
-    "section-img text3 text4"
-    "section-img text3 text4";
-    ;
-    margin: 0;
-    padding: 0;
-}
-.section-img{
-    grid-area: section-img;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#blog h3{
-    font-size: 1.5em;
-    color: var(--color-secundario);
-}
-#blog p{
-    font-size: 1.1em;
-    margin: 10px 20px;
-    padding: 0 40px;
-    color: var(--color-secundario);
-}
-.text1{
-    grid-area: text1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text2{
-    grid-area: text2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text3{
-    grid-area: text3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
-.text4{
-    grid-area: text4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px ;
-}
+
+
 /* INICIO DE CONTACTO.HTML */
 .grid-contacto{
     display: grid;
