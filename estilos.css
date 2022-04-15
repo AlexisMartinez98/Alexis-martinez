@@ -421,3 +421,12 @@ footer a img {
     color: var(--color-terciario);
     text-decoration: underline;
 }
+.mapa iframe{
+    width: 600px;
+    height: 350px;
+}
+@media screen and (max-width:600px) {
+    .mapa iframe{
+        width: auto;
+        height: auto;
+    }
