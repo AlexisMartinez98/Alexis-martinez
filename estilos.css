@@ -1,108 +1,127 @@
 /* ESTILOS GENERALES PARA TODA LA PAGINA */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     --color-principal: #ffffff;
     --color-secundario: #000000;
     --color-terciario: #a91e24;
     --color-detalles: #d3262d;
-    --textos-secundarios:#a09f9f;
-    --color-fondo:#e7e7e7;
+    --textos-secundarios: #a09f9f;
+    --color-fondo: #e7e7e7;
 }
 
-body{
+body {
     background-color: var(--color-principal);
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 /* HEADER */
-img{
+img {
     width: 8rem;
     height: 4.5rem;
 }
-.container li{
+
+.container li {
     margin: 0.4rem 1rem 0.4rem 0;
 }
+
 /* secciones comportamiento de boton */
-header a{
+header a {
     text-decoration: none;
     color: var(--color-principal);
     font-size: 1.1rem;
 }
-header nav a:hover{
+
+header nav a:hover {
     color: var(--color-terciario);
     transition-delay: 0.05s;
 }
+
 /* FINDE HEADER */
 /* RESUMEN QUINES SOMOS*/
-#resumen-quienes-somos .nombres{
+#resumen-quienes-somos .nombres {
     margin: 2rem 0 2rem 1rem;
 }
-#resumen-quienes-somos .data{
+
+#resumen-quienes-somos .data {
     margin: 2rem 0 2rem 0;
 }
-.data{
+
+.data {
     margin-top: 1rem;
 }
+
 /* FIN RESUMEN */
 /* secciones comportamiento de boton */
-.data a{
+.data a {
     text-decoration: none;
     color: var(--color-secundario);
     font-size: 1em;
 }
 
-.data a:hover{
+.data a:hover {
     color: var(--color-terciario);
     transition-delay: 0.05s;
 }
 
 /* RESUMEN PROYECTOS */
-#resumen-proyectos{
+#resumen-proyectos {
     width: 100%;
     margin-bottom: 50px;
 }
-#resumen-proyectos .contenedor{
+
+#resumen-proyectos .contenedor {
     width: auto;
     height: auto;
 }
-.titulo-resumen-proyectos{
+
+.titulo-resumen-proyectos {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
-.titulo-resumen-proyectos h2{
+
+.titulo-resumen-proyectos h2 {
     font-size: 1.5em;
 }
-.img-resumen-proyectos{
+
+.img-resumen-proyectos {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.imagen1 h4,.imagen2 h4,.imagen3 h4{
+
+.imagen1 h4,
+.imagen2 h4,
+.imagen3 h4 {
     display: flex;
     justify-content: center;
     font-size: 1.3em;
 }
 
-.img-resumen-proyectos img{
+.img-resumen-proyectos img {
     width: 25rem;
     height: 25rem;
     background-position: center center;
     padding: 10px;
     border-radius: 20px;
 }
-.img-resumen-proyectos .imagen1:hover, .imagen2:hover, .imagen3:hover{
+
+.img-resumen-proyectos .imagen1:hover,
+.imagen2:hover,
+.imagen3:hover {
     transform: scale(1.08);
     transition: all 0.4s;
 }
+
 @media screen and (max-width:810px) {
-    .img-resumen-proyectos img{
+    .img-resumen-proyectos img {
         width: 20rem;
         height: 20rem;
         background-position: center center;
@@ -110,86 +129,99 @@ header nav a:hover{
         border-radius: 20px;
     }
 }
+
 /* FIN RESUMEN PROYECTOS */
 
 /* RESUMEN CONTACTOS */
-#resumen-contacto{
+#resumen-contacto {
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-#resumen-contacto button{
-    font-family:'Josefin Sans', sans-serif ;
-    padding: 1rem 0.6rem ;
-    color:var(--color-principal);
+
+#resumen-contacto button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1rem 0.6rem;
+    color: var(--color-principal);
     background-color: var(--color-secundario);
     letter-spacing: 0.3rem;
     font-size: 1rem;
     border: 1px solid var(--color-principal);
 }
-#resumen-contacto button:hover{
-    color:var(--color-secundario);
+
+#resumen-contacto button:hover {
+    color: var(--color-secundario);
     background-color: var(--color-principal);
     border: 1px solid var(--color-principal);
     transition-delay: 0.2s;
 }
+
 @media screen and (max-width:400px) {
-    #resumen-contacto button{
-        font-family:'Josefin Sans', sans-serif ;
-        padding: 0.8rem 0.5rem ;
-        color:var(--color-principal);
+    #resumen-contacto button {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 0.8rem 0.5rem;
+        color: var(--color-principal);
         background-color: var(--color-secundario);
         letter-spacing: 0.1rem;
         font-size: 0.5rem;
         border: 1px solid var(--color-principal);
     }
-    #resumen-contacto button:hover{
-        color:var(--color-secundario);
+
+    #resumen-contacto button:hover {
+        color: var(--color-secundario);
         background-color: var(--color-principal);
         border: 1px solid var(--color-principal);
         transition-delay: 0.2s;
     }
 }
+
 /* FIN RESUMEN-CONTACTO */
 
 /* FOOTER */
-footer{
+footer {
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-footer p{
+
+footer p {
     margin: 4px 0 4px 0;
 }
-footer a{
+
+footer a {
     margin: 4px 7px;
 }
-footer  a img{
+
+footer a img {
     width: 20px;
     height: 20px;
 }
+
 /* EMPIEZO DE QUIENES.SOMOS.HTML */
 /* TITULO */
-#titulo-quienes-somos{
+#titulo-quienes-somos {
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
 
 /* QUIENES SOMOS */
-#quienes-somos .row{
+#quienes-somos .row {
     margin: 0 3px;
 }
+
 @media screen and (min-width :1000px) {
-    .row1{
+    .row1 {
         margin: 0 150px 0 150px;
     }
 }
+
 /* EQUIPO */
-#equipo .container img{
+#equipo .container img {
     width: 226px;
     height: 226px;
     padding: 5px;
     margin-bottom: 20px;
 }
-#equipo .container img:hover{
+
+#equipo .container img:hover {
     transform: scale(1.15);
     transition: all 0.4s;
 }
@@ -199,25 +231,32 @@ footer  a img{
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-#menu .container li a{
+
+#menu .container li a {
     color: var(--color-principal);
     text-decoration: none;
 }
-#menu .container li a:hover{
+
+#menu .container li a:hover {
     color: var(--color-detalles);
     text-decoration: underline;
 }
+
 /* PROYECTO */
-#proyecto1, #proyecto2{
+#proyecto1,
+#proyecto2 {
     border-bottom: 2px solid var(--color-secundario);
     margin: 10px 0 10px 0;
 }
-.boxUno , .boxDos{
+
+.boxUno,
+.boxDos {
     margin: 5em auto;
     overflow: hidden;
     position: relative;
     margin: 0.5rem auto;
 }
+
 .row .container img {
     width: auto;
     max-width: 500px;
@@ -228,11 +267,13 @@ footer  a img{
     position: relative;
     z-index: 2;
 }
-#proyecto1 .container:hover img{
-    transform: scale(1.1,1.1);
+
+#proyecto1 .container:hover img {
+    transform: scale(1.1, 1.1);
     z-index: 9;
 }
-.boxText{
+
+.boxText {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -240,20 +281,23 @@ footer  a img{
     left: 0;
     z-index: 3;
     padding: 10px;
-    background-image: linear-gradient( 135deg, #d3262ce7 10%, #000000f6 100%);
+    background-image: linear-gradient(135deg, #d3262ce7 10%, #000000f6 100%);
     opacity: 1;
     transition: 0.3s linear;
     color: var(--color-principal);
     text-shadow: 2px 2px 2px #333;
 }
-.boxText:hover{
+
+.boxText:hover {
     opacity: 0;
 }
+
 @media screen and (max-width:810px) {
-    h5{
+    h5 {
         font-size: 1rem;
     }
-    p{
+
+    p {
         font-size: 0.7rem;
     }
 }
@@ -264,28 +308,36 @@ footer  a img{
     color: var(--color-principal);
     padding: 0 0 5px 0;
 }
+
 #blog .row {
     height: 78vh;
 }
+
 @media screen and (max-width:600px) {
     #blog .row {
         height: 73vh;
     }
 }
-#blog{
-    background: -webkit-linear-gradient(to left, hsla(210, 4%, 90%, 0.45), hsla(203, 100%, 21%, 0.45)), url(imagenes/152.JPG);
-    background: linear-gradient(to left, hsla(210, 4%, 90%, 0.45), hsla(203, 100%, 21%, 0.45)), url(imagenes/152.JPG);
-    animation: movimiento 20s infinite linear alternate;
-    margin: 10px;
+
+#blog {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
-#blog h3 , p{
+
+#blog h3,
+#blog p {
     color: var(--color-principal);
     padding: 10px;
-}   
-@keyframes movimiento{
-    from{
+}
+
+@keyframes movimiento {
+    from {
         background-position: bottom left;
-    }to{
+    }
+
+    to {
         background-position: top right;
     }
 }
@@ -293,16 +345,17 @@ footer  a img{
 
 
 /* INICIO DE CONTACTO.HTML */
-.grid-contacto{
+.grid-contacto {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-template-areas:
-    "form contacto"
-    "form contacto"
+        "form contacto"
+        "form contacto"
     ;
 }
-#form{
+
+#form {
     grid-area: form;
     display: flex;
     justify-content: center;
@@ -310,7 +363,8 @@ footer  a img{
     flex-direction: column;
     margin: 30px 0;
 }
-#contacto{
+
+#contacto {
     grid-area: contacto;
     display: flex;
     justify-content: center;
@@ -318,25 +372,30 @@ footer  a img{
     flex-direction: column;
     margin: 30px 0;
 }
-#encabezado-contacto{
+
+#encabezado-contacto {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--color-secundario);
     color: var(--color-principal);
 }
-#encabezado-contacto h1{
+
+#encabezado-contacto h1 {
     font-size: 1.1em;
-    margin: 20px 0 40px 10px ;
+    margin: 20px 0 40px 10px;
 }
-#encabezado-contacto p{
+
+#encabezado-contacto p {
     font-size: 2.3em;
     margin: 10px 20px 8px 550px;
 }
-#form{
+
+#form {
     border-right: 1px solid var(--color-secundario);
 }
-#form .contenedor{
+
+#form .contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,13 +403,15 @@ footer  a img{
     margin: 0;
     padding: 0;
 }
-.form-row{
+
+.form-row {
     margin: 20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .form-row input [type="text"],
 .form-row input [type="email"] {
     background-color: #fff;
@@ -360,9 +421,11 @@ footer  a img{
     padding: 7px;
     font-size: 14px;
 }
+
 .form-row label {
     margin-bottom: 15px;
 }
+
 .form-row textarea {
     font-size: 14px;
     border: 1xp solid #d6d9dc;
@@ -373,45 +436,53 @@ footer  a img{
     min-width: 100%;
     resize: none;
 }
+
 .form-row .instructions {
     color: var(--textos-secundarios);
     margin-bottom: 30px;
     font-size: 14px;
 }
+
 .form-row button {
-    font-family:'Josefin Sans', sans-serif ;
+    font-family: 'Josefin Sans', sans-serif;
     padding: 15px 10px;
-    color:var(--color-principal);
+    color: var(--color-principal);
     background-color: var(--color-secundario);
     letter-spacing: 4px;
     font-size: 1em;
     border: 1px solid var(--color-principal);
 }
+
 .form-row button:hover {
-    color:var(--color-secundario);
+    color: var(--color-secundario);
     background-color: var(--color-principal);
     border: 1px solid var(--color-principal);
     transition-delay: 0.2s;
     border: 1px solid var(--color-secundario);
 }
-.form-row button:active{
+
+.form-row button:active {
     border: 1px solid var(--color-detalles);
 }
-#contacto .contenedor{
+
+#contacto .contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#contacto .contenedor h2{
+
+#contacto .contenedor h2 {
     font-size: 1.5em;
     margin: 20px 0;
 }
-#contacto .contenedor p{
+
+#contacto .contenedor p {
     font-size: 1.2em;
     margin: 12px 0;
 }
-#ubicacion .contenedor{
+
+#ubicacion .contenedor {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -419,17 +490,16 @@ footer  a img{
     margin: 0;
     padding: 0;
 }
-.mapa{
+
+.mapa {
     margin: 5px 0 10px 0;
 }
-.info h2{
+
+.info h2 {
     font-size: 1.5em;
     margin: 20px 0;
 }
-.info p{
+
+.info p {
     font-size: 1em;
 }
-
-
-
-
