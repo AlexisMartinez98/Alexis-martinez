@@ -14,6 +14,6 @@
 
     // funcion que redirreciona al usaria una vez que completo el form
 
-    header('location:exito.html');
+    header('location:src/paginas/exito.html');
 
 ?>
