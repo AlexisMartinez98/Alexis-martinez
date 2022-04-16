@@ -1,0 +1,11 @@
+@import '../components/listaColores';
+@import '../components/variablesFont';
+
+// ESTILOS PARA TODA LA PAGINA
+body{
+    margin: 0;
+    padding: 0;
+    background-color: nth($colores, 1);
+    font-family: $font-one;
+    scroll-behavior: smooth;
+}
