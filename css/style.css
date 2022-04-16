@@ -1,3 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
 
+header nav div a img {
+  width: 8rem;
+  height: 4.5rem;
+}
+header nav div div ul li {
+  margin: 0.4rem 1rem 0.4rem 0;
+}
+header nav div div ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+header nav div div ul li a:hover {
+  color: #d3262d;
+  transition-delay: 0.05s;
+}
+
+section div div div .nombres {
+  margin: 2rem 0 2rem 1rem;
+}
+section div div div .data {
+  margin: 2rem 0 2rem 0;
+}
+section div div div .data a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+}
+section div div div .data a:hover {
+  color: #d3262d;
+  transition-delay: 0.05s;
+}
+
+#resumen-proyectos {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#resumen-proyectos .contenedor {
+  width: 100%;
+  height: 100%;
+}
+#resumen-proyectos .contenedor .titulo-resumen-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#resumen-proyectos .contenedor .titulo-resumen-proyectos h2 {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#resumen-proyectos .img-resumen-proyectos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen1:hover {
+  transform: scale(1.08);
+  transition: all 0.4s;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen1 a img {
+  width: 25rem;
+  height: 25rem;
+  background-position: center center;
+  padding: 10px;
+  border-radius: 25px;
+}
+@media screen and (max-width: 810px) {
+  #resumen-proyectos .img-resumen-proyectos .imagen1 a img {
+    width: 20rem;
+    height: 20rem;
+    background-position: center center;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+#resumen-proyectos .img-resumen-proyectos .imagen1 h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen2:hover {
+  transform: scale(1.08);
+  transition: all 0.4s;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen2 a img {
+  width: 25rem;
+  height: 25rem;
+  background-position: center center;
+  padding: 10px;
+  border-radius: 25px;
+}
+@media screen and (max-width: 810px) {
+  #resumen-proyectos .img-resumen-proyectos .imagen2 a img {
+    width: 20rem;
+    height: 20rem;
+    background-position: center center;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+#resumen-proyectos .img-resumen-proyectos .imagen2 h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen3:hover {
+  transform: scale(1.08);
+  transition: all 0.4s;
+}
+#resumen-proyectos .img-resumen-proyectos .imagen3 a img {
+  width: 25rem;
+  height: 25rem;
+  background-position: center center;
+  padding: 10px;
+  border-radius: 25px;
+}
+@media screen and (max-width: 810px) {
+  #resumen-proyectos .img-resumen-proyectos .imagen3 a img {
+    width: 20rem;
+    height: 20rem;
+    background-position: center center;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+#resumen-proyectos .img-resumen-proyectos .imagen3 h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+#resumen-contacto {
+  background-color: #000000;
+  color: #ffffff;
+}
+#resumen-contacto div div div a button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem 0.6rem;
+  color: #ffffff;
+  background-color: #000000;
+  letter-spacing: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid #ffffff;
+}
+#resumen-contacto div div div a button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  transition-delay: 0.2s;
+}
+@media screen and (max-width: 400px) {
+  #resumen-contacto div div div a button {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0.8rem 0.5rem;
+    color: #ffffff;
+    background-color: #000000;
+    letter-spacing: 0.1rem;
+    font-size: 0.5rem;
+    border: 1px solid #ffffff;
+  }
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer div div p {
+  margin: 4px 0 4px 0;
+}
+footer div div a {
+  margin: 4px 7px;
+}
+footer div div a img {
+  width: 20px;
+  height: 20px;
+}
+footer div div p {
+  margin: 4px 0 4px 0;
+}
 
 /*# sourceMappingURL=style.css.map */

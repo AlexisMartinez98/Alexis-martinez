@@ -1,0 +1,31 @@
+@import '../components/listaColores';
+@import '../components/variablesFont';
+
+header{
+    nav{
+        div{
+            a{
+                img{
+                    width: 8rem;
+                    height: 4.5rem;
+                }
+            }
+            div{
+                ul{
+                    li{
+                        margin: 0.4rem 1rem 0.4rem 0;
+                        a{
+                            text-decoration: none;
+                            color:nth($colores, 1) ;
+                            font-size: 1.1rem;
+                            &:hover{
+                                color:nth($colores, 4) ;
+                                transition-delay: 0.05s;
+                            }
+                        }
+                        }
+                }
+            }
+        }
+    }
+}

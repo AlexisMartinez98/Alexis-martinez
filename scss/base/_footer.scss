@@ -1,0 +1,25 @@
+footer{
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+    div{
+        div{
+            p{
+                margin: 4px 0 4px 0;
+            }
+        }
+        div{
+            a{
+                margin: 4px 7px;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        div{
+            p{
+                margin: 4px 0 4px 0;
+            }
+        }
+    }
+}
