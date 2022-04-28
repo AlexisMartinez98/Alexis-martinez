@@ -1,7 +1,7 @@
 {
   "name": "desafio-alexis-martinez",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h3 align=\"center\">This is the repository of challenges made for the Coderhouse Web Development course by Alexis Martinez</h3>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

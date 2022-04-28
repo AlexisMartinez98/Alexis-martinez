@@ -1,0 +1,19 @@
+%sizeImg {
+    width:25rem;
+    height:25rem;
+    background-position: center center;
+    padding: 10px;
+    border-radius: 25px;
+    @media screen and (max-width:810px){
+        width:20rem;
+        height:20rem;
+        background-position: center center;
+        padding:10px;
+        border-radius: 20px;
+    }
+}
+%alingText{
+    display: flex; 
+    justify-content:center; 
+    font-size: 1.3rem;
+}
