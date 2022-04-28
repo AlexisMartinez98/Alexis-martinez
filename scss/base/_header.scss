@@ -7,8 +7,11 @@ header{
         div{
             a{
                 img{
-                    width: 12rem;
-                    height: 6.5rem;
+                    width: 10rem;
+                    height: 6rem;
+                    @media screen and (max-width:400px){
+                        width: 7rem; height: 3.2rem;
+                    }
                 }
             }
             div{
