@@ -3,26 +3,26 @@
 @import '../components/extends';
 
 section{
-    width: 100%;
+    width: auto;
     .home{
         div{
             .carousel-inner{
                 .carousel-item{
                     img{
                     @media screen and (max-width:400px){
-                        width: 100%; height:28rem;
+                        width: auto; height:28rem;
                     }}
                 }
                 .carousel-item{
                     img{
                     @media screen and (max-width:400px){
-                        width: 100%; height:28rem;
+                        width: auto; height:28rem;
                     }}
                 }
                 .carousel-item{
                     img{
                     @media screen and (max-width:400px){
-                        width: 100%; height:28rem;
+                        width: auto; height:28rem;
                     }}
                 }
             }

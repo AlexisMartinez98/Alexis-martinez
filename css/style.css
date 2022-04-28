@@ -52,23 +52,23 @@ header nav div div ul li a:hover {
 }
 
 section {
-  width: 100%;
+  width: auto;
 }
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
-    width: 100%;
+    width: auto;
     height: 28rem;
   }
 }
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
-    width: 100%;
+    width: auto;
     height: 28rem;
   }
 }
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
-    width: 100%;
+    width: auto;
     height: 28rem;
   }
 }
