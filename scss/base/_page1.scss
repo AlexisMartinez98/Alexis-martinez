@@ -3,6 +3,7 @@
 @import '../components/extends';
 
 section {
+    font-family: $font-one;
     div {
         div{
             div{
@@ -30,6 +31,7 @@ section {
 
 
 #resumen-proyectos{
+    font-family: $font-one;
     width: 100%;
     margin-bottom: 50px;
     .contenedor{
@@ -87,6 +89,7 @@ section {
 }
 
 #resumen-contacto{
+    font-family: $font-one;
     background-color: nth($colores,2);
     color: nth($colores, 1);
     div{

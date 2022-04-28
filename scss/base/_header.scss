@@ -2,12 +2,13 @@
 @import '../components/variablesFont';
 
 header{
+    font-family: $font-one;
     nav{
         div{
             a{
                 img{
-                    width: 8rem;
-                    height: 4.5rem;
+                    width: 12rem;
+                    height: 6.5rem;
                 }
             }
             div{
