@@ -30,13 +30,31 @@ section{
     }
 }
 
-section {
+#resumen-quienes-somos{
     font-family: $font-one;
     div {
         div{
             div{
                 .nombres{
                     margin: 2rem 0 2rem 1rem;
+                }
+            }
+            div{
+                img{width: 20rem;
+                    height: 21rem;
+                    position: absolute;
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+                    }
+                img{
+                    width: 20rem;
+                    height: 21rem;
+                    position: absolute;
+                    transition: all .8s;
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+                    &:hover{
+                        transform: translate(20px, 20px);
+                        opacity: 0.08;
+                    }
                 }
             }
             div{
