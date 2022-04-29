@@ -9,16 +9,18 @@ body {
 }
 
 header {
+  display: grid;
+  align-items: center;
+  grid-template: 2fr/1fr;
+  column-gap: 2rem;
   font-family: "Josefin Sans", sans-serif;
 }
-header nav div a img {
-  width: 10rem;
-  height: 6rem;
-}
-@media screen and (max-width: 400px) {
-  header nav div a img {
-    width: 7rem;
-    height: 3.2rem;
+@media (min-width: 768px) {
+  header header {
+    display: grid;
+    align-items: center;
+    grid-template: 1fr/3fr 7fr;
+    column-gap: 2rem;
   }
 }
 header nav div div ul li {
@@ -63,19 +65,19 @@ section {
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
     width: auto;
-    height: 28rem;
+    height: 22rem;
   }
 }
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
     width: auto;
-    height: 28rem;
+    height: 22rem;
   }
 }
 @media screen and (max-width: 400px) {
   section .home div .carousel-inner .carousel-item img {
     width: auto;
-    height: 28rem;
+    height: 22rem;
   }
 }
 
