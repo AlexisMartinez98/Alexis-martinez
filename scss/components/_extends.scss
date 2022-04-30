@@ -1,15 +1,15 @@
 %sizeImg {
-    width:25rem;
-    height: 32rem;
+    // width:auto;
+    // height: auto;
     background-position: center center;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 2px;
     @media screen and (max-width:810px){
-        width:20rem;
-        height:20rem;
+        // width:20rem;
+        // height:20rem;
         background-position: center center;
         padding:10px;
-        border-radius: 20px;
+        border-radius: 2px;
     }
 }
 %alingText{
