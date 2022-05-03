@@ -216,16 +216,8 @@ footer a img {
 
 
 /* EQUIPO */
-#equipo .container img {
-    width: 226px;
-    height: 226px;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-
-#equipo .container img:hover {
-    transform: scale(1.15);
-    transition: all 0.4s;
+#equipo .container video {
+    pointer-events: none;
 }
 
 /* INICIO DE PORTAFOLIO.HTML */
@@ -244,64 +236,37 @@ footer a img {
     text-decoration: underline;
 }
 
-/* PROYECTO */
-#proyecto1,
-#proyecto2 {
-    border-bottom: 2px solid var(--color-secundario);
-    margin: 10px 0 10px 0;
-}
-
-.boxUno,
-.boxDos {
-    margin: 5em auto;
-    overflow: hidden;
-    position: relative;
-    margin: 0.5rem auto;
-}
-
-.row .container img {
-    width: auto;
-    max-width: 500px;
-    height: auto;
-    max-height: 300px;
-    margin-bottom: -5px;
-    transition: all 0.5s ease-out;
-    position: relative;
-    z-index: 2;
-}
-
-#proyecto1 .container:hover img {
-    transform: scale(1.1, 1.1);
-    z-index: 9;
-}
-
-.boxText {
+#galeria01 .col-lg-4{
+    margin:0!important;
+    padding: 25px;}
+#galeria01 img{
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    padding: 10px;
-    background-image: linear-gradient(135deg, #d3262ce7 10%, #000000f6 100%);
-    opacity: 1;
-    transition: 0.3s linear;
-    color: var(--color-principal);
-    text-shadow: 2px 2px 2px #333;
+    height: 450px;
+}
+#galeria01 img:hover{
+    border: 5px solid #f7f7f7;
 }
 
-.boxText:hover {
-    opacity: 0;
+#galeria02 .col-lg-4{
+    margin:0!important;
+    padding: 25px;}
+#galeria02 img{
+    width: 100%;
+    height: 450px;
+}
+#galeria02 img:hover{
+    border: 5px solid #f7f7f7;
 }
 
-@media screen and (max-width:810px) {
-    h5 {
-        font-size: 1rem;
-    }
-
-    p {
-        font-size: 0.7rem;
-    }
+#galeria03 .col-lg-4{
+    margin:0!important;
+    padding: 25px;}
+#galeria03 img{
+    width: 100%;
+    height: 450px;
+}
+#galeria03 img:hover{
+    border: 5px solid #f7f7f7;
 }
 
 /* INICIO BLOG */
@@ -311,19 +276,9 @@ footer a img {
     padding: 0 0 5px 0;
 }
 
-#blog .row {
-    height: 78vh;
-}
-
-@media screen and (max-width:600px) {
-    #blog .row {
-        height: 73vh;
-    }
-}
-
 #blog {
     background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url(../src/multimedia/imagenes/grod.png);
     background-attachment: fixed;
     background-size: cover;
 }
