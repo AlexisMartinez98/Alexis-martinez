@@ -39,6 +39,7 @@ section {
     }
 }
 
+
 #resumen-quienes-somos {
     font-family: $font-one;
 
@@ -121,27 +122,29 @@ section {
                 font-size: 1.5rem;
             }
         }
-        .img-resumen-proyectos{
-            div{
-                div{
-                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                    div{
-                        div{
-                            a{
-                        //         font-family: $font-one;
-                        //         padding: 1rem 0.6rem;
-                        //         color: nth($colores, 1);
-                        //         background-color: nth($colores, 2);
-                        //         letter-spacing: 0.3rem;
-                        //         font-size: 1rem;
-                        //         border: 1px solid nth($colores, 1);
 
-                        // &:hover {
-                        //     color: nth($colores, 2);
-                        //     background-color: nth($colores, 1);
-                        //     border: 1px solid nth($colores, 1);
-                        //     transition-delay: 0.2s;
-                        // }
+        .img-resumen-proyectos {
+            div {
+                div {
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+                    div {
+                        div {
+                            a {
+                                //         font-family: $font-one;
+                                //         padding: 1rem 0.6rem;
+                                //         color: nth($colores, 1);
+                                //         background-color: nth($colores, 2);
+                                //         letter-spacing: 0.3rem;
+                                //         font-size: 1rem;
+                                //         border: 1px solid nth($colores, 1);
+
+                                // &:hover {
+                                //     color: nth($colores, 2);
+                                //     background-color: nth($colores, 1);
+                                //     border: 1px solid nth($colores, 1);
+                                //     transition-delay: 0.2s;
+                                // }
 
                             }
                         }

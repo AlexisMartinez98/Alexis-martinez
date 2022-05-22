@@ -11,4 +11,5 @@ body{
     scroll-behavior: smooth;
     background-color: #ffffff;
     @extend %fondo;
+    overflow-x: hidden;
 }

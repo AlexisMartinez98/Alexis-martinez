@@ -9,6 +9,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 header {
