@@ -4,7 +4,7 @@
 header{
     display: grid;
     align-items: center;
-    grid-template: 2fr/ 1fr;
+    grid-template: 1fr/ 1fr;
     column-gap: 2rem;
     font-family: $font-one;
     @media (min-width: 768px) {
@@ -17,9 +17,13 @@ header{
     }
     nav{
         div{
+            
             a{
                 img{
-                    
+                    // @media screen and (max-width: 400px){
+                    //     width: 120px;
+                    //     height: 50px;
+                    // }
                 }
             }
             div{

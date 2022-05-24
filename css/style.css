@@ -15,7 +15,7 @@ body {
 header {
   display: grid;
   align-items: center;
-  grid-template: 2fr/1fr;
+  grid-template: 1fr/1fr;
   column-gap: 2rem;
   font-family: "Josefin Sans", sans-serif;
 }
